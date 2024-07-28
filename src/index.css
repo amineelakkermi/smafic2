@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  list-style: none;
+
+}
+
+section{
+  overflow-x: hidden;
+}
+
+
+::-webkit-scrollbar {
+  width: 12px; 
+  height: 12px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #252D48;
+  /*border-radius: 3px;*/
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 6px; 
+  margin: 0px; 
+}
+
+::-webkit-scrollbar-track:hover {
+  background: #e1e1e1; 
+}
+
+::-webkit-scrollbar-corner {
+  background: #f1f1f1; 
+}
+
+img{
+  object-fit: cover;
+}
+
+
+.buy-now{
+  transition: 0.4s ease-in-out;
+}
+.buy-now:hover{
+  background: white;
+  border: 1px solid #252D48;
+}
+
+.buy-now:hover a , .buy-now:hover svg{
+  color: #252D48;
+}

@@ -1,0 +1,26 @@
+.footerBg{
+  background: linear-gradient(#E35925, #252D48);
+  background: whitesmoke;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(0);
+  opacity: 0.2;
+}
+
+
+.circle-icons, .circle-icons svg{
+  transition: 0.3s ease-in-out;
+}
+
+
+.circle-icons:hover{
+  background: white;
+}
+
+
+.circle-icons:hover svg{
+  color: #252D48;
+}
