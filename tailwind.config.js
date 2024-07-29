@@ -10,10 +10,11 @@ module.exports = {
         blue: '#252D48',
         yellow: '#EFA51F',
         beige: '#E6D5B8',
-       
-         
-        
+        transparent: 'transparent'
       },
+      borderWidth: {
+        '1': '2px',
+      },    
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },

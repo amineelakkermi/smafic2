@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from '../style'
-import { servicesData } from '../constants/servicesData'
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion'
 import { textVariant } from '../constants/motion';
+import { servicesData } from '../constants/data';
 
 const SvgIcon = ({ svg }) => {
     return <div dangerouslySetInnerHTML={{ __html: svg }} />;
@@ -11,7 +11,7 @@ const SvgIcon = ({ svg }) => {
 
 const ServicesSection = () => {
   return (
-    <section className={`${styles.padding} w-full bg-white flex flex-col justify-center items-center z-10`}>
+    <section id='serives-section' className={`${styles.padding} w-full bg-white flex flex-col justify-center items-center z-10`}>
        <motion.h1
         variants={textVariant(0.3)}
         initial="hidden"

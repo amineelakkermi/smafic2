@@ -67,3 +67,9 @@ img{
 .buy-now:hover a , .buy-now:hover svg{
   color: #252D48;
 }
+
+
+.transparent-text{
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+}

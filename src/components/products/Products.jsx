@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from '../../style';
-import { productsData } from '../../constants/servicesData';
 import { motion } from 'framer-motion';
 
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
@@ -10,6 +9,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import './products.css';
 import { textVariant } from '../../constants/motion';
+import { productsData } from '../../constants/data';
 
 const Products = () => {
   return (

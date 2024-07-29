@@ -1,19 +1,19 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { menu, close, smafic, saudi, british } from "../assets";
-import { navItems } from "../constants/navItem";
+import { navItems } from "../constants/data";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-[100%] z-10 py-4 md:px-16 px-6 flex items-center justify-between navbar">
-      <Link to='/home'><img src={smafic} alt="logo" className="md:w-[200px] w-[80px] h-[80px]  object-cover" /></Link>
+    <nav className="w-[100%] z-10 md:py-4 py-2 md:px-16 px-6 flex items-center justify-between navbar">
+      <Link to='/home'><img src={smafic} alt="logo" className="md:w-[200px] w-[150px] md:h-[80px] h-[60px]  object-cover" /></Link>
       <ul className="list-none lg:flex hidden justify-center items-center flex-1 gap-16">
         {navItems.map((item, index) => (
           <li key={index} className="flex justify-center items-center">
             <Link 
-              className='nav-list-li font-poppins  cursor-pointer text-[20px] text-white'
+              className='nav-list-li font-poppins  cursor-pointer text-[20px] text-white duration-300 hover:text-orange '
               to={item.url}
               onClick={() => setToggle(false)}
             >

@@ -27,7 +27,7 @@
   left: 0;
   top: 0;
   transform: translate(0);
-  opacity: 0.2;
+  opacity: 0.4;
 }
 
 .galleryTitle{
@@ -36,6 +36,7 @@
   top: 50%;
   text-shadow: 10px 20px 45px rgb(222, 132, 22);
 }
+  
 
 /*
 .imgContainer {

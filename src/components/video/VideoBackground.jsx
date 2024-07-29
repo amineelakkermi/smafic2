@@ -1,5 +1,5 @@
 import React from 'react';
-import { explore, HeroVideo } from '../../assets';
+import { HeroVideo } from '../../assets';
 import './video.css'
 
 const VideoBackground = () => {
